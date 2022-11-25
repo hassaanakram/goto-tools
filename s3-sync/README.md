@@ -23,6 +23,13 @@ go build -o s3-sync
 ```
 ./s3-sync --dir </Path/to/local/dir> --s3_url <s3_url/of/remote/directory>
 ```
+- Keep it running to keep syncing files. To terminate it use:
+
+```
+ctrl + c
+or
+cmd + c
+```
 
 <h3>Requirements</h3>
 
